@@ -9,7 +9,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 model = ChatOpenAI(model="gpt-4o-mini", api_key=OPENAI_API_KEY)
 
 
-st.header("🤖  Srijanbot 👨‍💻", divider="rainbow")
+st.header("🤖  Srijibot 👨‍💻", divider="rainbow")
 st.markdown("###### A chatbot powered by: GPT-4o-mini")
 
 if "chat_history" not in st.session_state:
